@@ -11,7 +11,7 @@ This box comes with everything you need to start using smart contracts from a re
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```javascript
-    truffle unbox react
+    truffle unbox upperwal/react-box
     ```
 
 3. Run the development console.
