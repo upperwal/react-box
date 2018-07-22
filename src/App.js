@@ -34,7 +34,7 @@ class App extends Component {
 
     instantiateContract() {
 
-        var simpleStorageInstance = new this.state.web3.eth.Contract(SimpleStorageContract.abi, SimpleStorageContract.networks['5777'].address)
+        var simpleStorageInstance = new this.state.web3.eth.Contract(SimpleStorageContract.abi, SimpleStorageContract.networks[Object.keys(SimpleStorageContract.networks)[0]].address)
 
         var accountsList;
         var self = this;
